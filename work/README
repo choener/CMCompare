@@ -1,0 +1,17 @@
+Here are scripts to actually get some work done.
+
+
+
+Required:
+
+- a copy of CMCompare in "./"
+  - this makes sure that rebuilding stuff does not affect us
+
+- a symlink named "data"
+  - here, input and output is dropped
+  - stuff under data is not in darcs, but handled by Unison
+  - the symlink should point somewhere in WorkData
+
+- a symlink named "Rfam"
+  - pointing to covariance models
+  - the symlink will likely point to a symlink pointing to current CMs

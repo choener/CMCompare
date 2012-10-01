@@ -1,0 +1,9 @@
+The CMCompare (http://www.tbi.univie.ac.at/software/cmcompare/) program takes
+two Infernal covariance models and calculates the Link sequence and its Link
+score. The Link sequence is the sequence scored by both models highest *at the
+same time*. Two models with a high Link score are not well separated from each
+other.
+
+Publication:
+
+HOE:HOF:2010

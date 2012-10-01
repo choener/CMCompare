@@ -1,0 +1,2594 @@
+AC   CL00001
+ID   tRNA
+DE   tRNA clan
+AU   Gardner PP
+DR   URL; http://www.indiana.edu/~tmrna/;
+DR   URL; http://rnp.uthct.edu/rnp/tmRDB/tmRDB.html;
+DR   URL; http://trnadb.bioinf.uni-leipzig.de;
+DR   URL; http://gtrnadb.ucsc.edu;
+RN   [1]
+RM   1371186
+RT   Identification of the 10Sa RNA structural gene of Mycobacterium
+RT   tuberculosis.
+RA   Tyagi JS, Kinger AK
+RL   Nucleic Acids Res. 1992;20:138.
+RN   [2]
+RM   7524073
+RT   A tRNA-like structure is present in 10Sa RNA, a small stable RNA
+RT   from Escherichia coli.
+RA   Komine Y, Kitabatake M, Yokogawa T, Nishikawa K, Inokuchi H
+RL   Proc Natl Acad Sci U S A. 1994;91:9223-7.
+RN   [3]
+RM   19617710
+RT   Variations on the tmRNA gene.
+RA   Mao C, Bhardwaj K, Sharkady SM, Fish RI, Driscoll T, Wower J,
+RA   Zwieb C, Sobral BW, Williams KP
+RL   RNA Biol. 2009;6
+RN   [4]
+RM   16381838
+RT   The tmRDB and SRPDB resources.
+RA   Andersen ES, Rosenblad MA, Larsen N, Westergaard JC, Burks J,
+RA   Wower IK, Wower J, Gorodkin J, Samuelsson T, Zwieb C
+RL   Nucleic Acids Res. 2006;34:D163-8.
+RN   [5]
+RM   15958166
+RT   Comparative 3-D modeling of tmRNA.
+RA   Burks J, Zwieb C, Mueller F, Wower I, Wower J
+RL   BMC Mol Biol. 2005;6:14.
+CC   The tRNA clan contains the RNA families tRNA and tmRNA. Homology
+CC   between these families has been established in the published literature
+CC   [1-5].
+MB   RF00005;
+MB   RF00023;
+AC   CL00002
+ID   RNaseP
+DE   RNaseP clan
+AU   Gardner PP
+DR   URL; http://www.mbio.ncsu.edu/RNaseP/home.html;
+RN   [1]
+RM   7524025
+RT   The Ribonuclease P database.
+RA   Brown JW, Haas ES, Gilbert DG, Pace NR
+RL   Nucleic Acids Res. 1994;22:3660-2.
+RN   [2]
+RM   19738420
+RT   The RNase P family.
+RA   Ellis JC, Brown JW
+RL   RNA Biol. 2009;6
+RN   [3]
+RM   9847214
+RT   The Ribonuclease P Database.
+RA   Brown JW
+RL   Nucleic Acids Res. 1999;27:314.
+RN   [4]
+RM   8660429
+RT   The evolution of the RNase P- and RNase MRP-associated RNAs:
+RT   phylogenetic analysis and nucleotide substitution rate.
+RA   Sbisa E, Pesole G, Tullo A, Saccone C
+RL   J Mol Evol. 1996;43:46-57.
+RN   [5]
+RM   16723659
+RT   Differential association of protein subunits with the human RNase
+RT   MRP and RNase P complexes.
+RA   Welting TJ, Kikkert BJ, van Venrooij WJ, Pruijn GJ
+RL   RNA. 2006;12:1373-82.
+RN   [6]
+RM   19395864
+RT   Conserved and variable domains of RNase MRP RNA.
+RA   Lopez MD, Rosenblad MA, Samuelsson T
+RL   RNA Biol. 2009;6:208-220.
+RN   [7]
+RM   16087735
+RT   Identification and analysis of ribonuclease P and MRP RNA in a
+RT   broad range of eukaryotes.
+RA   Piccinelli P, Rosenblad MA, Samuelsson T
+RL   Nucleic Acids Res. 2005;33:4485-95.
+CC   The RNaseP clan contains the RNA families RNaseP_nuc, RNaseP_bact_a,
+CC   RNaseP_bact_b, RNase_MRP and RNaseP_arch. Homology between these
+CC   families has been established in the published literature [1-7].
+MB   RF00009;
+MB   RF00010;
+MB   RF00011;
+MB   RF00030;
+MB   RF00373;
+AC   CL00003
+ID   SRP
+DE   SRP clan
+AU   Gardner PP
+DR   URL; http://rnp.uthct.edu/rnp/SRPDB/SRPDB.html;
+RN   [1]
+RM   2452405
+RT   The Bacillus subtilis scRNA is related to the 4.5S RNA from
+RT   Escherichia coli.
+RA   Struck JC, Vogel DW, Ulbrich N, Erdmann VA
+RL   Nucleic Acids Res. 1988;16:2719.
+RN   [2]
+RM   2458843
+RT   Human SRP RNA and E. coli 4.5S RNA contain a highly homologous
+RT   structural domain.
+RA   Poritz MA, Strub K, Walter P
+RL   Cell. 1988;55:4-6.
+RN   [3]
+RM   1701272
+RT   An E. coli ribonucleoprotein containing 4.5S RNA resembles
+RT   mammalian signal recognition particle.
+RA   Poritz MA, Bernstein HD, Strub K, Zopf D, Wilhelm H, Walter P
+RL   Science. 1990;250:1111-7.
+RN   [4]
+RM   1707519
+RT   SRP-RNA sequence alignment and secondary structure.
+RA   Larsen N, Zwieb C
+RL   Nucleic Acids Res. 1991;19:209-15.
+RN   [5]
+RM   7687350
+RT   The signal recognition particle database (SRPDB).
+RA   Larsen N, Zwieb C
+RL   Nucleic Acids Res. 1993;21:3019-20.
+RN   [6]
+RM   15611297
+RT   A nomenclature for all signal recognition particle RNAs.
+RA   Zwieb C, van Nues RW, Rosenblad MA, Brown JD, Samuelsson T
+RL   RNA. 2005;11:7-13.
+RN   [7]
+RM   16381838
+RT   The tmRDB and SRPDB resources.
+RA   Andersen ES, Rosenblad MA, Larsen N, Westergaard JC, Burks J,
+RA   Wower IK, Wower J, Gorodkin J, Samuelsson T, Zwieb C
+RL   Nucleic Acids Res. 2006;34:D163-8.
+CC   The SRP clan contains the RNA families SRP_euk_arch and SRP_bact.
+CC   Homology between these families has been established in the published
+CC   literature [1-7].
+MB   RF00017;
+MB   RF00169;
+AC   CL00004
+ID   Telomerase
+DE   Telomerase clan
+AU   Gardner PP
+DR   URL; http://telomerase.asu.edu;
+DR   URL; http://rnp.uthct.edu/rnp/telomDB/telomDB.html;
+RN   [1]
+RM   18073191
+RT   The telomerase database.
+RA   Podlevsky JD, Bley CJ, Omana RV, Qi X, Chen JJ
+RL   Nucleic Acids Res. 2008;36:D339-43.
+RN   [2]
+RM   1840508
+RT   A conserved secondary structure for telomerase RNA.
+RA   Romero DP, Blackburn EH
+RL   Cell. 1991;67:343-53.
+RN   [3]
+RM   10721988
+RT   Secondary structure of vertebrate telomerase RNA.
+RA   Chen JL, Blasco MA, Greider CW
+RL   Cell. 2000;100:503-14.
+CC   The Telomerase clan contains the RNA families Telomerase-vert,
+CC   Telomerase-cil and Sacc_telomerase. Homology between these families has
+CC   been established in the published literature [1-3].
+MB   RF00024;
+MB   RF00025;
+MB   RF01050;
+AC   CL00005
+ID   U1
+DE   U1 clan
+AU   Gardner PP
+DR   URL; http://rnp.uthct.edu/index.html;
+RN   [1]
+RM   8986610
+RT   More Sm snRNAs from vertebrate cells.
+RA   Yu YT, Tarn WY, Yario TA, Steitz JA
+RL   Exp Cell Res. 1996;229:276-81.
+RN   [2]
+RM   9149533
+RT   Pre-mRNA splicing: the discovery of a new spliceosome doubles the
+RT   challenge.
+RA   Tarn WY, Steitz JA
+RL   Trends Biochem Sci. 1997;22:132-7.
+RN   [3]
+RM   8594606
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1996;24:76-9.
+RN   [4]
+RM   9016512
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1997;25:102-3.
+CC   The U1 clan contains the RNA families U1, U1_yeast and U11. Homology
+CC   between these families has been established in the published literature
+CC   [1-4].
+MB   RF00003;
+MB   RF00488;
+MB   RF00548;
+AC   CL00006
+ID   U2
+DE   U2 clan
+AU   Gardner PP
+DR   URL; http://rnp.uthct.edu/index.html;
+RN   [1]
+RM   8986610
+RT   More Sm snRNAs from vertebrate cells.
+RA   Yu YT, Tarn WY, Yario TA, Steitz JA
+RL   Exp Cell Res. 1996;229:276-81.
+RN   [2]
+RM   9149533
+RT   Pre-mRNA splicing: the discovery of a new spliceosome doubles the
+RT   challenge.
+RA   Tarn WY, Steitz JA
+RL   Trends Biochem Sci. 1997;22:132-7.
+RN   [3]
+RM   8594606
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1996;24:76-9.
+RN   [4]
+RM   9016512
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1997;25:102-3.
+CC   The U2 clan contains the RNA families U2 and U12. Homology between
+CC   these families has been established in the published literature [1-4].
+MB   RF00004;
+MB   RF00007;
+AC   CL00007
+ID   U4
+DE   U4 clan
+AU   Gardner PP
+DR   URL; http://rnp.uthct.edu/index.html;
+RN   [1]
+RM   12409455
+RT   Domains of human U4atac snRNA required for U12-dependent splicing
+RT   in vivo.
+RA   Shukla GC, Cole AJ, Dietrich RC, Padgett RA
+RL   Nucleic Acids Res. 2002;30:4650-7.
+RN   [2]
+RM   2440583
+RT   An essential snRNA from S. cerevisiae has properties predicted
+RT   for U4, including interaction with a U6-like snRNA.
+RA   Siliciano PG, Brow DA, Roiha H, Guthrie C
+RL   Cell. 1987;50:585-92.
+RN   [3]
+RM   8791582
+RT   Highly diverged U4 and U6 small nuclear RNAs required for
+RT   splicing rare AT-AC introns.
+RA   Tarn WY, Steitz JA
+RL   Science. 1996;273:1824-32.
+RN   [4]
+RM   8594606
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1996;24:76-9.
+RN   [5]
+RM   9016512
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1997;25:102-3.
+CC   The U4 clan contains the RNA families U4 and U4atac. Homology between
+CC   these families has been established in the published literature [1-5].
+MB   RF00015;
+MB   RF00618;
+AC   CL00008
+ID   U54
+DE   U54 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The U54 clan contains the RNA families U54 and snoU54. The following
+CC   bioinformatic methods were used to confirm the relationship between
+CC   these families: HMMER3 and PRC [1,2].
+MB   RF00206;
+MB   RF01277;
+AC   CL00009
+ID   U6
+DE   U6 clan
+AU   Gardner PP
+DR   URL; http://rnp.uthct.edu/index.html;
+RN   [1]
+RM   12409455
+RT   Domains of human U4atac snRNA required for U12-dependent splicing
+RT   in vivo.
+RA   Shukla GC, Cole AJ, Dietrich RC, Padgett RA
+RL   Nucleic Acids Res. 2002;30:4650-7.
+RN   [2]
+RM   8791582
+RT   Highly diverged U4 and U6 small nuclear RNAs required for
+RT   splicing rare AT-AC introns.
+RA   Tarn WY, Steitz JA
+RL   Science. 1996;273:1824-32.
+RN   [3]
+RM   8594606
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1996;24:76-9.
+RN   [4]
+RM   9016512
+RT   The uRNA database.
+RA   Zwieb C
+RL   Nucleic Acids Res. 1997;25:102-3.
+CC   The U6 clan contains the RNA families U6 and U6atac. Homology between
+CC   these families has been established in the published literature [1-4].
+MB   RF00026;
+MB   RF00619;
+AC   CL00010
+ID   Hammerhead
+DE   Hammerhead clan
+AU   Gardner PP
+RN   [1]
+RM   1620624
+RT   Numbering system for the hammerhead.
+RA   Hertel KJ, Pardi A, Uhlenbeck OC, Koizumi M, Ohtsuka E, Uesugi S,
+RA   Cedergren R, Eckstein F, Gerlach WL, Hodgson R
+RL   Nucleic Acids Res. 1992;20:3252.
+RN   [2]
+RM   1703005
+RT   Sequence requirements of the hammerhead RNA self-cleavage
+RT   reaction.
+RA   Ruffner DE, Stormo GD, Uhlenbeck OC
+RL   Biochemistry. 1990;29:10695-702.
+CC   The Hammerhead clan contains the RNA families Hammerhead_3 and
+CC   Hammerhead_1. Homology between these families has been established in
+CC   the published literature [1,2].
+MB   RF00008;
+MB   RF00163;
+AC   CL00011
+ID   Glm
+DE   Glm clan
+AU   Gardner PP
+RN   [1]
+RM   18351803
+RT   Two seemingly homologous noncoding RNAs act hierarchically to
+RT   activate glmS mRNA translation.
+RA   Urban JH, Vogel J
+RL   PLoS Biol. 2008;6:e64.
+CC   The Glm clan contains the RNA families GlmZ_SraJ and GlmY_tke1.
+CC   Homology between these families has been established in the published
+CC   literature [1].
+MB   RF00083;
+MB   RF00128;
+AC   CL00012
+ID   SAM
+DE   SAM clan
+AU   Gardner PP
+RN   [1]
+RM   18369181
+RT   The aptamer core of SAM-IV riboswitches mimics the ligand-binding
+RT   site of SAM-I riboswitches.
+RA   Weinberg Z, Regulski EE, Hammond MC, Barrick JE, Yao Z, Ruzzo WL,
+RA   Breaker RR
+RL   RNA. 2008;14:822-8.
+CC   The SAM clan contains the RNA families SAM and SAM-IV. Homology between
+CC   these families has been established in the published literature [1].
+MB   RF00162;
+MB   RF00634;
+AC   CL00013
+ID   7SK
+DE   7SK clan
+AU   Gardner PP
+RN   [1]
+RM   18566019
+RT   Arthropod 7SK RNA.
+RA   Gruber AR, Kilgus C, Mosig A, Hofacker IL, Hennig W, Stadler PF
+RL   Mol Biol Evol. 2008;25:1923-30.
+CC   The 7SK clan contains the RNA families 7SK and Arthropod_7SK. Homology
+CC   between these families has been established in the published literature
+CC   [1].
+MB   RF00100;
+MB   RF01052;
+AC   CL00014
+ID   CRISPR-1
+DE   CRISPR-1 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The CRISPR-1 clan contains the RNA families CRISPR-DR2, CRISPR-DR4,
+CC   CRISPR-DR14, CRISPR-DR17, CRISPR-DR25, CRISPR-DR43 and CRISPR-DR66. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF01315;
+MB   RF01317;
+MB   RF01327;
+MB   RF01328;
+MB   RF01338;
+MB   RF01352;
+MB   RF01379;
+AC   CL00015
+ID   CRISPR-2
+DE   CRISPR-2 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The CRISPR-2 clan contains the RNA families CRISPR-DR5, CRISPR-DR7,
+CC   CRISPR-DR63 and CRISPR-DR64. The following bioinformatic methods were
+CC   used to confirm the relationship between these families: CMSEARCH,
+CC   HMMER3 and PRC [1,2,3].
+MB   RF01318;
+MB   RF01320;
+MB   RF01376;
+MB   RF01377;
+AC   CL00016
+ID   FinP-traJ
+DE   FinP-traJ clan
+AU   Gardner PP
+RN   [1]
+RM   7526120
+RT   Structural and functional analyses of the FinP antisense RNA
+RT   regulatory system of the F conjugative plasmid.
+RA   van Biesen T, Soederbom F, Wagner EG, Frost LS
+RL   Mol Microbiol. 1993;10:35-43.
+RN   [2]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The FinP-traJ clan contains the RNA families FinP and traJ_5. Homology
+CC   between these families has been established in the published literature
+CC   [1]. The following bioinformatic methods were used to confirm the
+CC   relationship between these families: CMSEARCH and PRC [2,3].
+MB   RF00107;
+MB   RF00243;
+AC   CL00017
+ID   IRES1
+DE   IRES1 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The IRES1 clan contains the RNA families IRES_HCV and IRES_Pesti. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH and PRC [1,2].
+MB   RF00061;
+MB   RF00209;
+AC   CL00018
+ID   SCARNA3
+DE   SCARNA3 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SCARNA3 clan contains the RNA families SCARNA24 and SCARNA3. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH and PRC [1,2].
+MB   RF00422;
+MB   RF00565;
+AC   CL00019
+ID   SCARNA4
+DE   SCARNA4 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SCARNA4 clan contains the RNA families SCARNA4 and SCARNA15. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00423;
+MB   RF00426;
+AC   CL00020
+ID   SL
+DE   SL clan
+AU   Gardner PP
+RN   [1]
+RM   11376950
+RT   Trans-spliced leader RNA, 5S-rRNA genes and novel variant orphan
+RT   spliced-leader of the lymphatic filarial nematode Wuchereria
+RT   bancrofti, and a sensitive polymerase chain reaction based
+RT   detection assay.
+RA   Dassanayake RS, Chandrasekharan NV, Karunanayake EH
+RL   Gene. 2001;269:185-93.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SL clan contains the RNA families SL1 and SL2. Homology between
+CC   these families has been established in the published literature [1].
+CC   The following bioinformatic methods were used to confirm the
+CC   relationship between these families: HMMER3 and PRC [2,3].
+MB   RF00198;
+MB   RF00199;
+AC   CL00021
+ID   SNORA2
+DE   SNORA2 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA2 clan contains the RNA families SNORA16, SNORA2,
+CC   snopsi28S-3327, snR189, snR46 and S_pombe_snR46. Homology between these
+CC   families has been established in the published literature [1].
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORA2 and snR189, SNORA16
+CC   and snR46 [2].
+MB   RF00190;
+MB   RF00410;
+MB   RF00544;
+MB   RF01250;
+MB   RF01253;
+MB   RF01441;
+AC   CL00022
+ID   SNORA3
+DE   SNORA3 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA3 clan contains the RNA families SNORA3 and snR11. Researchers
+CC   at the human snoRNA database (snoRNABase) have established that the
+CC   following human and S. cerevisiae snoRNAs target modifications on
+CC   orthologous positions of the ribosome: SNORA3 and snR11 [1].
+MB   RF00334;
+MB   RF01260;
+AC   CL00023
+ID   SNORA4
+DE   SNORA4 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA4 clan contains the RNA families SNORA4 and snR83. Researchers
+CC   at the human snoRNA database (snoRNABase) have established that the
+CC   following human and S. cerevisiae snoRNAs target modifications on
+CC   orthologous positions of the ribosome: SNORA4 and snR83 [1].
+MB   RF00394;
+MB   RF01264;
+AC   CL00024
+ID   SNORA5
+DE   SNORA5 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA5 clan contains the RNA families SNORA5 and snR85. Researchers
+CC   at the human snoRNA database (snoRNABase) have established that the
+CC   following human and S. cerevisiae snoRNAs target modifications on
+CC   orthologous positions of the ribosome: SNORA5 and snR85 [1].
+MB   RF00392;
+MB   RF01240;
+AC   CL00025
+ID   SNORA7
+DE   SNORA7 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA7 clan contains the RNA families SNORA7 and snR81. Researchers
+CC   at the human snoRNA database (snoRNABase) have established that the
+CC   following human and S. cerevisiae snoRNAs target modifications on
+CC   orthologous positions of the ribosome: SNORA7 and snR81 [1].
+MB   RF00409;
+MB   RF01246;
+AC   CL00026
+ID   SNORA8
+DE   SNORA8 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA8 clan contains the RNA families SNORA8 and snR31. Researchers
+CC   at the human snoRNA database (snoRNABase) have established that the
+CC   following human and S. cerevisiae snoRNAs target modifications on
+CC   orthologous positions of the ribosome: SNORA8 and snR31 [1].
+MB   RF00393;
+MB   RF01257;
+AC   CL00027
+ID   SNORA9
+DE   SNORA9 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA9 clan contains the RNA families SNORA9, snR33, snR43 and
+CC   S_pombe_snR33. Homology between these families has been established in
+CC   the published literature [1]. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORA9 and snR43, SNORA9 and snR33 [2].
+MB   RF00411;
+MB   RF01243;
+MB   RF01256;
+MB   RF01436;
+AC   CL00028
+ID   SNORA13
+DE   SNORA13 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA13 clan contains the RNA families SNORA13, snR35 and
+CC   S_pombe_snR35. Homology between these families has been established in
+CC   the published literature [1]. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORA13 and snR35 [2].
+MB   RF00396;
+MB   RF01255;
+MB   RF01438;
+AC   CL00029
+ID   SNORA17
+DE   SNORA17 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORA17 clan contains the RNA families SNORA43 and SNORA17. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00416;
+MB   RF00560;
+AC   CL00030
+ID   SNORA20
+DE   SNORA20 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORA20 clan contains the RNA families SNORA20 and SNORA29. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00401;
+MB   RF00429;
+AC   CL00031
+ID   SNORA21
+DE   SNORA21 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA21 clan contains the RNA families SNORA21, snR10 and
+CC   S_pombe_snR10. Homology between these families has been established in
+CC   the published literature [1]. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORA21 and snR10 [2].
+MB   RF00412;
+MB   RF01258;
+MB   RF01437;
+AC   CL00032
+ID   SNORA27
+DE   SNORA27 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA27 clan contains the RNA families SNORA27, SNORA26, snR42 and
+CC   S_pombe_snR42. Homology between these families has been established in
+CC   the published literature [1]. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORA27 and snR42 [2].
+MB   RF00443;
+MB   RF00568;
+MB   RF01265;
+MB   RF01440;
+AC   CL00033
+ID   SNORA28
+DE   SNORA28 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA28 clan contains the RNA families SNORA28, snopsi18S-841 and
+CC   snR80. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORA28 and
+CC   snR80 [1].
+MB   RF00400;
+MB   RF00545;
+MB   RF01269;
+AC   CL00034
+ID   SNORA35
+DE   SNORA35 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORA35 clan contains the RNA families SNORA50, SNORA54, SNORA35
+CC   and SNORA76. The following bioinformatic methods were used to confirm
+CC   the relationship between these families: CMSEARCH, HMMER3 and PRC
+CC   [1,2,3].
+MB   RF00407;
+MB   RF00430;
+MB   RF00566;
+MB   RF00598;
+AC   CL00035
+ID   SNORA36
+DE   SNORA36 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA36 clan contains the RNA families SNORA36, snR36, snR44 and
+CC   S_pombe_snR36. Homology between these families has been established in
+CC   the published literature [1]. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORA36 and snR36, SNORA36 and snR44 [2].
+MB   RF00340;
+MB   RF01242;
+MB   RF01262;
+MB   RF01439;
+AC   CL00036
+ID   SNORA44
+DE   SNORA44 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA44 clan contains the RNA families SNORA44, SNORA58, snR161 and
+CC   snR9. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORA44 and
+CC   snR161, SNORA58 and snR9 [1].
+MB   RF00405;
+MB   RF00418;
+MB   RF01237;
+MB   RF01245;
+AC   CL00037
+ID   SNORA48
+DE   SNORA48 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA48 clan contains the RNA families SNORA48 and snR86.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORA48 and snR86 [1].
+MB   RF00554;
+MB   RF01272;
+AC   CL00038
+ID   SNORA52
+DE   SNORA52 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [3]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORA52 clan contains the RNA families SNORA66, snoR98, SNORA52,
+CC   SNORA18, snoR80, snR49, snR5 and S_pombe_snR5. Homology between these
+CC   families has been established in the published literature [1].
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: U66 and snR49, SNORA52 and
+CC   snR5 [2]. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoR80 and
+CC   SnR5, snoR98 and SnR5 [3].
+MB   RF00155;
+MB   RF00307;
+MB   RF00419;
+MB   RF00425;
+MB   RF01224;
+MB   RF01239;
+MB   RF01252;
+MB   RF01435;
+AC   CL00039
+ID   SNORA56
+DE   SNORA56 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA56 clan contains the RNA families SNORA56 and snR8.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORA56 and snR8 [1].
+MB   RF00417;
+MB   RF01248;
+AC   CL00040
+ID   SNORA62
+DE   SNORA62 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   15716270
+RT   Identification and functional analysis of 20 Box H/ACA small
+RT   nucleolar RNAs (snoRNAs) from Schizosaccharomyces pombe.
+RA   Li SG, Zhou H, Luo YP, Zhang P, Qu LH
+RL   J Biol Chem. 2005;280:16446-55.
+RN   [2]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA62 clan contains the RNA families SNORA62, snR65, snR3, snR82
+CC   and S_pombe_snR3. Homology between these families has been established
+CC   in the published literature [1]. Researchers at the human snoRNA
+CC   database (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORA62 and snR3, SNORA62 and snR65, SNORA62 and snR82 [2].
+MB   RF00091;
+MB   RF01204;
+MB   RF01251;
+MB   RF01261;
+MB   RF01434;
+AC   CL00041
+ID   SNORA64
+DE   SNORA64 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORA64 clan contains the RNA families SNORA64 and snR37.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORA64 and snR37 [1].
+MB   RF00264;
+MB   RF01267;
+AC   CL00042
+ID   SNORA65
+DE   SNORA65 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORA65 clan contains the RNA families SNORA65, snR34 and snoR2.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORA65 and snR34 [1].
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoR2 and
+CC   U65&SnR34 [2].
+MB   RF00302;
+MB   RF01254;
+MB   RF01292;
+AC   CL00043
+ID   SNORA74
+DE   SNORA74 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+CC   The SNORA74 clan contains the RNA families SNORA74 and snR191.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORA74 and snR191 [1]. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: HMMER3 [2].
+MB   RF00090;
+MB   RF01263;
+AC   CL00044
+ID   SNORD12
+DE   SNORD12 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD12 clan contains the RNA families SNORD12 and snR190.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD12 and snR190 [1].
+MB   RF00581;
+MB   RF01249;
+AC   CL00045
+ID   SNORD15
+DE   SNORD15 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD15 clan contains the RNA families SNORD15, snR75, snR13 and
+CC   snoZ5. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD15 and
+CC   snR13 [1]. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD15 and
+CC   U15&SnR13, SNORD15 and SnR75 [2].
+MB   RF00067;
+MB   RF01185;
+MB   RF01223;
+MB   RF01226;
+AC   CL00046
+ID   SNORD16
+DE   SNORD16 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD16 clan contains the RNA families SNORD16 and snR87.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: U16 and snR87 [1].
+MB   RF00138;
+MB   RF01216;
+AC   CL00047
+ID   SNORD18
+DE   SNORD18 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD18 clan contains the RNA families SNORD18 and snoU18.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD18 and snoU18 [1].
+MB   RF00093;
+MB   RF01159;
+AC   CL00048
+ID   SNORD19
+DE   SNORD19 clan
+AU   Gardner PP
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [3]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [4]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORD19 clan contains the RNA families SNORD19 and SNORD19B.
+CC   Homology between these families has been established in the published
+CC   literature [1]. The following bioinformatic methods were used to
+CC   confirm the relationship between these families: CMSEARCH, HMMER3 and
+CC   PRC [2,3,4].
+MB   RF00569;
+MB   RF01183;
+AC   CL00049
+ID   SNORD25
+DE   SNORD25 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD25 clan contains the RNA families SNORD25 and snR56.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD25 and snR56 [1].
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD25 and
+CC   U25&SnR56 [2].
+MB   RF00054;
+MB   RF01188;
+AC   CL00050
+ID   SNORD26
+DE   SNORD26 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORD26 clan contains the RNA families SNORD26 and SNORD81. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: HMMER3 and PRC [1,2].
+MB   RF00087;
+MB   RF00136;
+AC   CL00051
+ID   SNORD29
+DE   SNORD29 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD29 clan contains the RNA families SNORD36, SNORD29, snoZ223,
+CC   SNORD38, snosnR69, snosnR61, snosnR71, SNORD78, snoR69Y, snR47 and
+CC   snoU36a. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD29 and
+CC   snR71, SNORD36 and snR47, SNORD38 and snR61 [1]. Researchers at the
+CC   plant snoRNA database have established that the following arabadopsis,
+CC   human and S. cerevisiae snoRNAs target modifications on orthologous
+CC   positions of the ribosome: snoU36a and U36a&SnR47, snoR69Y and
+CC   U29&SnR71, snoZ223 and U38ab&SnR61, snoR69Y and SnR69 [2].
+MB   RF00049;
+MB   RF00070;
+MB   RF00135;
+MB   RF00212;
+MB   RF00475;
+MB   RF00476;
+MB   RF00479;
+MB   RF00592;
+MB   RF01198;
+MB   RF01203;
+MB   RF01302;
+AC   CL00052
+ID   SNORD30
+DE   SNORD30 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD30 clan contains the RNA families SNORD30 and snoU30.
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoU30 and U30
+CC   [1].
+MB   RF00088;
+MB   RF01283;
+AC   CL00053
+ID   SNORD31
+DE   SNORD31 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+RN   [3]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+CC   The SNORD31 clan contains the RNA families SNORD31, snoZ17, snR67 and
+CC   snoR35. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD31 and
+CC   snR67 [1]. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoR35 and
+CC   U31&SnR67 [2]. The following bioinformatic methods were used to confirm
+CC   the relationship between these families: HMMER3 [3].
+MB   RF00089;
+MB   RF00266;
+MB   RF01177;
+MB   RF01281;
+AC   CL00054
+ID   SNORD33
+DE   SNORD33 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD33 clan contains the RNA families SNORD33, snoZ196, SNORD51,
+CC   snosnR55, snoMe18S-Um1356, snoMe28S-Am982, snR39, snR40 and snoR21b.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD33 and snosnR55 [1].
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoR21b and
+CC   U32&SnR40, snoZ196 and U51&U32a&SnR39&SnR59 [2].
+MB   RF00133;
+MB   RF00134;
+MB   RF00280;
+MB   RF00472;
+MB   RF00532;
+MB   RF00535;
+MB   RF01197;
+MB   RF01201;
+MB   RF01282;
+AC   CL00055
+ID   SNORD34
+DE   SNORD34 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD34 clan contains the RNA families SNORD34 and snR62.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD34 and snR62 [1].
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD34 and
+CC   U34&SnR62 [2].
+MB   RF00147;
+MB   RF01205;
+AC   CL00056
+ID   SNORD35
+DE   SNORD35 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD35 clan contains the RNA families SNORD35, snoZ161_228 and
+CC   snR73. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD35 and
+CC   snR73 [1]. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoZ161_228 and
+CC   U35&SnR73 [2].
+MB   RF00211;
+MB   RF00328;
+MB   RF01207;
+AC   CL00057
+ID   SNORD39
+DE   SNORD39 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD39 clan contains the RNA families SNORD55, snoZ7, snoZ101,
+CC   SNORD65, snoR77Y and snR77. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORD65/HBII-135 and snR77 [1]. Researchers at the plant
+CC   snoRNA database have established that the following arabadopsis, human
+CC   and S. cerevisiae snoRNAs target modifications on orthologous positions
+CC   of the ribosome: snoZ101 and U55&U39 [2].
+MB   RF00157;
+MB   RF00268;
+MB   RF00358;
+MB   RF00571;
+MB   RF01178;
+MB   RF01181;
+AC   CL00058
+ID   SNORD41
+DE   SNORD41 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD41 clan contains the RNA families SNORD57, SNORD41 and snR51.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: U57 and snR51, SNORD41 and
+CC   snR51 [1].
+MB   RF00274;
+MB   RF00588;
+MB   RF01214;
+AC   CL00059
+ID   SNORD43
+DE   SNORD43 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD43 clan contains the RNA families SNORD43 and snR70.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD43 and snR70 [1].
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD43 and
+CC   U43&SnR70 [2].
+MB   RF00221;
+MB   RF01238;
+AC   CL00060
+ID   SNORD44
+DE   SNORD44 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD44 clan contains the RNA families SNORD44 and snoZ102_R77.
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoZ102_R77 and
+CC   U44 [1].
+MB   RF00287;
+MB   RF00359;
+AC   CL00061
+ID   SNORD46
+DE   SNORD46 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD46 clan contains the RNA families SNORD46 and snR63.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD46 and snR63 [1].
+MB   RF00218;
+MB   RF01259;
+AC   CL00062
+ID   SNORD49
+DE   SNORD49 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD49 clan contains the RNA families SNORD49, snoZ112 and snoU49.
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoU49 and U49
+CC   [1].
+MB   RF00277;
+MB   RF00337;
+MB   RF01300;
+AC   CL00063
+ID   SNORD52
+DE   SNORD52 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD52 clan contains the RNA families SNORD52, SNORD53, snoZ157
+CC   and snR78. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD52 and
+CC   snR78 [1]. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoZ157 and
+CC   U53, snoZ157 and U52&SnR78 [2].
+MB   RF00276;
+MB   RF00325;
+MB   RF00333;
+MB   RF01176;
+AC   CL00064
+ID   SNORD58
+DE   SNORD58 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORD58 clan contains the RNA families SNORD58 and SNORD99. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: HMMER3 and PRC [1,2].
+MB   RF00151;
+MB   RF00608;
+AC   CL00065
+ID   SNORD59
+DE   SNORD59 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD59 clan contains the RNA families snoZ159, SNORD59 and
+CC   snosnR54. Researchers at the human snoRNA database (snoRNABase) have
+CC   established that the following human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD59 and
+CC   snosnR54 [1]. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoZ159 and
+CC   U59&SnR54 [2].
+MB   RF00160;
+MB   RF00273;
+MB   RF00473;
+AC   CL00066
+ID   SNORD60
+DE   SNORD60 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD60 clan contains the RNA families SNORD60, snoR1, snosnR48,
+CC   snoMe28S-G3255 and sn2903. Researchers at the human snoRNA database
+CC   (snoRNABase) have established that the following human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: SNORD60 and snR48 [1]. Researchers at the plant snoRNA
+CC   database have established that the following arabadopsis, human and S.
+CC   cerevisiae snoRNAs target modifications on orthologous positions of the
+CC   ribosome: snoR1 and SnR48 [2].
+MB   RF00271;
+MB   RF00345;
+MB   RF00471;
+MB   RF00527;
+MB   RF01194;
+AC   CL00067
+ID   SNORD61
+DE   SNORD61 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD61 clan contains the RNA families SNORD61, snoU61 and
+CC   SNORD125. Researchers at the plant snoRNA database have established
+CC   that the following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoU61 and U61
+CC   [1].
+MB   RF00270;
+MB   RF01170;
+MB   RF01200;
+AC   CL00068
+ID   SNORD62
+DE   SNORD62 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD62 clan contains the RNA families SNORD62, snoR41 and snR41.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: U62 and snR41 [1].
+MB   RF00153;
+MB   RF00205;
+MB   RF01218;
+AC   CL00069
+ID   SNORD74
+DE   SNORD74 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+RN   [3]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+CC   The SNORD74 clan contains the RNA families SNORD79, SNORD113, SNORD74,
+CC   snoR44_J54, snosnR64, snoMe28S-Cm2645, SNORD64, SNORD112 and SNORD109A.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD74 and snR64 [1].
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoR44_J54 and
+CC   U74&SnR64, snoR44_J54 and U79 [2]. The following bioinformatic methods
+CC   were used to confirm the relationship between these families: HMMER3
+CC   [3].
+MB   RF00152;
+MB   RF00181;
+MB   RF00284;
+MB   RF00357;
+MB   RF00509;
+MB   RF00530;
+MB   RF00570;
+MB   RF01169;
+MB   RF01278;
+AC   CL00070
+ID   SNORD77
+DE   SNORD77 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD77 clan contains the RNA families snosnR60_Z15 and SNORD77.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD77 and snR60 [1].
+MB   RF00309;
+MB   RF00591;
+AC   CL00071
+ID   SNORD88
+DE   SNORD88 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+CC   The SNORD88 clan contains the RNA families SNORD88, snR76 and snoR118.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORD88 and snR76 [1]. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: HMMER3 [2].
+MB   RF00604;
+MB   RF01209;
+MB   RF01424;
+AC   CL00072
+ID   SNORD96
+DE   SNORD96 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORD96 clan contains the RNA families SNORD96 and snR39B.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: snR39B and snR39b [1].
+MB   RF00055;
+MB   RF01299;
+AC   CL00073
+ID   SNORD100
+DE   SNORD100 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORD100 clan contains the RNA families snoR30 and SNORD100. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00046;
+MB   RF00609;
+AC   CL00074
+ID   SNORD101
+DE   SNORD101 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORD101 clan contains the RNA families SNORD101 and snoR60. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00186;
+MB   RF00339;
+AC   CL00075
+ID   SNORD105
+DE   SNORD105 clan
+AU   Gardner PP
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+RN   [2]
+RM   16990247
+RT   snoSeeker: an advanced computational package for screening of
+RT   guide and orphan snoRNA genes in the human genome.
+RA   Yang JH, Zhang XC, Huang ZP, Zhou H, Huang MB, Zhang S, Chen YQ,
+RA   Qu LH
+RL   Nucleic Acids Res. 2006;34:5112-23.
+RN   [3]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [4]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [5]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The SNORD105 clan contains the RNA families SNORD105 and snoU105B.
+CC   Homology between these families has been established in the published
+CC   literature [1,2]. The following bioinformatic methods were used to
+CC   confirm the relationship between these families: CMSEARCH, HMMER3 and
+CC   PRC [3,4,5].
+MB   RF00584;
+MB   RF01173;
+AC   CL00076
+ID   SNORD110
+DE   SNORD110 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The SNORD110 clan contains the RNA families SNORD110 and snoR14.
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: SNORD110 and
+CC   snoR14 [1].
+MB   RF00610;
+MB   RF01280;
+AC   CL00077
+ID   SNORND104
+DE   SNORND104 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The SNORND104 clan contains the RNA families SNORND104 and snR58.
+CC   Researchers at the human snoRNA database (snoRNABase) have established
+CC   that the following human and S. cerevisiae snoRNAs target modifications
+CC   on orthologous positions of the ribosome: SNORND104 and snR58 [1].
+MB   RF00289;
+MB   RF01199;
+AC   CL00078
+ID   snR30-U17
+DE   snR30-U17 clan
+AU   Gardner PP
+DR   URL; http://www-snorna.biotoul.fr/human_yeast/;
+RN   [1]
+RM   9847166
+RT   A comprehensive database for the small nucleolar RNAs from
+RT   Saccharomyces cerevisiae.
+RA   Samarsky DA, Fournier MJ
+RL   Nucleic Acids Res. 1999;27:161-164.
+RN   [2]
+RM   17283215
+RT   New bioinformatic tools for analysis of nucleotide modifications
+RT   in eukaryotic rRNA.
+RA   Piekna-Przybylska D, Decatur WA, Fournier MJ
+RL   RNA. 2007;13:305-312.
+RN   [3]
+RM   16381836
+RT   snoRNA-LBME-db, a comprehensive database of human H/ACA and C/D
+RT   box snoRNAs.
+RA   Lestrade L, Weber MJ
+RL   Nucleic Acids Res. 2006;34:D158-162.
+CC   The snR30-U17 clan contains the RNA families SNORA73 and snR30.
+CC   Homology between these families has been established in the published
+CC   literature [1,2]. Researchers at the human snoRNA database (snoRNABase)
+CC   have established that the following human and S. cerevisiae snoRNAs
+CC   target modifications on orthologous positions of the ribosome: SNORA73
+CC   and snR30 [3].
+MB   RF00045;
+MB   RF01271;
+AC   CL00079
+ID   snR68
+DE   snR68 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The snR68 clan contains the RNA families snR68 and snoR27. Researchers
+CC   at the plant snoRNA database have established that the following
+CC   arabadopsis, human and S. cerevisiae snoRNAs target modifications on
+CC   orthologous positions of the ribosome: snoR27 and SnR68 [1].
+MB   RF01235;
+MB   RF01287;
+AC   CL00080
+ID   snoR53
+DE   snoR53 clan
+AU   Gardner PP
+DR   URL; http://bioinf.scri.sari.ac.uk/cgi-bin/plant_snorna/conservation;
+RN   [1]
+RM   12520043
+RT   Plant snoRNA database.
+RA   Brown JW, Echeverria M, Qu LH, Lowe TM, Bachellerie JP,
+RA   Huettenhofer A, Kastenmayer JP, Green PJ, Shaw P, Marshall DF
+RL   Nucleic Acids Res. 2003;31:432-435.
+CC   The snoR53 clan contains the RNA families snoR53 and snoR53Y.
+CC   Researchers at the plant snoRNA database have established that the
+CC   following arabadopsis, human and S. cerevisiae snoRNAs target
+CC   modifications on orthologous positions of the ribosome: snoR53Y and
+CC   SnR53 [1].
+MB   RF00338;
+MB   RF01279;
+AC   CL00081
+ID   snoU13
+DE   snoU13 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The snoU13 clan contains the RNA families snoZ279_R105_R108 and snoU13.
+CC   The following bioinformatic methods were used to confirm the
+CC   relationship between these families: HMMER3 and PRC [1,2].
+MB   RF00304;
+MB   RF01210;
+AC   CL00082
+ID   snoU85
+DE   snoU85 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The snoU85 clan contains the RNA families snoU89 and snoU85. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF01294;
+MB   RF01296;
+AC   CL00083
+ID   mir-2
+DE   mir-2 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-2 clan contains the RNA families mir-2, mir-6 and mir-11. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00047;
+MB   RF00143;
+MB   RF00813;
+AC   CL00084
+ID   mir-3
+DE   mir-3 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [3]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-3 clan contains the RNA families mir-3 and mir-318. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH and PRC [1,2]. The hexamer seeds of
+CC   the mature miRNA sequences from these families were manually checked
+CC   for similarity using sequences obtained from miRBase [3].
+MB   RF00716;
+MB   RF00818;
+AC   CL00085
+ID   mir-15
+DE   mir-15 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-15 clan contains the RNA families mir-16 and mir-15. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00254;
+MB   RF00455;
+AC   CL00086
+ID   mir-28
+DE   mir-28 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-28 clan contains the RNA families mir-28 and mir-708. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00655;
+MB   RF00917;
+AC   CL00087
+ID   mir-34
+DE   mir-34 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [3]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-34 clan contains the RNA families mir-34 and mir-449. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: HMMER3 and PRC [1,2]. The hexamer seeds of the
+CC   mature miRNA sequences from these families were manually checked for
+CC   similarity using sequences obtained from miRBase [3].
+MB   RF00456;
+MB   RF00711;
+AC   CL00088
+ID   mir-36
+DE   mir-36 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-36 clan contains the RNA families mir-36 and mir-42. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00685;
+MB   RF00794;
+AC   CL00089
+ID   mir-50
+DE   mir-50 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [3]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-50 clan contains the RNA families mir-190 and mir-50. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH and PRC [1,2]. The hexamer seeds of
+CC   the mature miRNA sequences from these families were manually checked
+CC   for similarity using sequences obtained from miRBase [3].
+MB   RF00672;
+MB   RF00824;
+AC   CL00090
+ID   mir-73
+DE   mir-73 clan
+AU   Gardner PP
+RN   [1]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [2]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-73 clan contains the RNA families mir-74 and mir-73. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: PRC [1]. The hexamer seeds of the mature miRNA
+CC   sequences from these families were manually checked for similarity
+CC   using sequences obtained from miRBase [2].
+MB   RF00830;
+MB   RF00831;
+AC   CL00091
+ID   mir-81
+DE   mir-81 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-81 clan contains the RNA families bantam and mir-81. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00727;
+MB   RF00728;
+AC   CL00092
+ID   mir-137
+DE   mir-137 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-137 clan contains the RNA families mir-137 and mir-234. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00694;
+MB   RF00859;
+AC   CL00093
+ID   mir-182
+DE   mir-182 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-182 clan contains the RNA families mir-183, mir-182, mir-263
+CC   and mir-228. The following bioinformatic methods were used to confirm
+CC   the relationship between these families: CMSEARCH, HMMER3 and PRC
+CC   [1,2,3]. The hexamer seeds of the mature miRNA sequences from these
+CC   families were manually checked for similarity using sequences obtained
+CC   from miRBase [4].
+MB   RF00663;
+MB   RF00702;
+MB   RF00706;
+MB   RF00843;
+AC   CL00094
+ID   mir-216
+DE   mir-216 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [3]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-216 clan contains the RNA families mir-216 and mir-283. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: HMMER3 and PRC [1,2]. The hexamer seeds of the
+CC   mature miRNA sequences from these families were manually checked for
+CC   similarity using sequences obtained from miRBase [3].
+MB   RF00654;
+MB   RF00747;
+AC   CL00095
+ID   mir-279
+DE   mir-279 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [4]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-279 clan contains the RNA families mir-279 and mir-996. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3]. The hexamer
+CC   seeds of the mature miRNA sequences from these families were manually
+CC   checked for similarity using sequences obtained from miRBase [4].
+MB   RF00754;
+MB   RF00948;
+AC   CL00096
+ID   mir-290
+DE   mir-290 clan
+AU   Gardner PP
+RN   [1]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [2]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [3]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-290 clan contains the RNA families mir-515, mir-290, mir-302
+CC   and miR-430. The following bioinformatic methods were used to confirm
+CC   the relationship between these families: HMMER3 and PRC [1,2]. The
+CC   hexamer seeds of the mature miRNA sequences from these families were
+CC   manually checked for similarity using sequences obtained from miRBase
+CC   [3].
+MB   RF00639;
+MB   RF00665;
+MB   RF00668;
+MB   RF01413;
+AC   CL00097
+ID   mir-BART
+DE   mir-BART clan
+AU   Gardner PP
+RN   [1]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+RN   [2]
+RM   17991681
+RT   miRBase: tools for microRNA genomics.
+RA   Griffiths-Jones S, Saini HK, van Dongen S, Enright AJ
+RL   Nucleic Acids Res. 2008;36:D154-8.
+CC   The mir-BART clan contains the RNA families mir-BART1 and mir-BART3.
+CC   The following bioinformatic methods were used to confirm the
+CC   relationship between these families: PRC [1]. The hexamer seeds of the
+CC   mature miRNA sequences from these families were manually checked for
+CC   similarity using sequences obtained from miRBase [2].
+MB   RF00363;
+MB   RF00866;
+AC   CL00098
+ID   MIR169
+DE   MIR169 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The MIR169 clan contains the RNA families MIR169_2 and MIR169_5. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00645;
+MB   RF00865;
+AC   CL00099
+ID   MIR171
+DE   MIR171 clan
+AU   Gardner PP
+RN   [1]
+RM   19307242
+RT   Infernal 1.0: inference of RNA alignments.
+RA   Nawrocki EP, Kolbe DL, Eddy SR
+RL   Bioinformatics. 2009;25:1335-7.
+RN   [2]
+RM   18516236
+RT   A probabilistic model of local sequence alignment that simplifies
+RT   statistical significance estimation.
+RA   Eddy SR
+RL   PLoS Comput Biol. 2008;4:e1000069.
+RN   [3]
+RM   18845584
+RT   Profile Comparer: a program for scoring and aligning profile
+RT   hidden Markov models.
+RA   Madera M
+RL   Bioinformatics. 2008;24:2630-2631.
+CC   The MIR171 clan contains the RNA families MIR171_1 and MIR171_2. The
+CC   following bioinformatic methods were used to confirm the relationship
+CC   between these families: CMSEARCH, HMMER3 and PRC [1,2,3].
+MB   RF00643;
+MB   RF00692;

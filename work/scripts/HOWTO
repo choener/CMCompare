@@ -1,0 +1,8 @@
+# works on all files in nobif/rfam and puts results into nobif/results
+scripts/uniquepairs.sh nobif/rfam  | while read i j ; do scripts/infernal.sh $i $j nobif/results ; done
+
+# gives the results, best to worst where we got the prediction wrong
+head -qn1 *out | awk '{x = ($10 - $5); y = ($13 - $6); a = x >= 0 ? x : -x; b = y >= 0 ? y : -y; if ($5>5 && $6>5) printf "%s %s %7.1f\n", $2, $3, a+b}' | sort -k3
+
+# for sorting by highest score
+head -qn1 *out | awk '{x = ($10 - $5); y = ($13 - $6); a = x >= 0 ? x : -x; b = y >= 0 ? y : -y; if ($5>5 && $6>5) printf "%s %s %7.1f %7.1f %7.1f %7.1f\n", $2, $3, a+b, $5, $6, $5+$6}' | sort -k6
