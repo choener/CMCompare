@@ -1,3 +1,4 @@
+{-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE RecordWildCards #-}
@@ -155,26 +156,24 @@ visitedNodes = (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,bra
   insertR cm k _ _ s = ((cm^.states) M.! k) ^. nodeID : s
   branch  cm k   s t = ((cm^.states) M.! k) ^. nodeID : (s ++ t)
   opt = id -- NOTE do not sort, do not nub !
-  finalize xs = "Nodes: " ++ show xs -- NOTE do not sort, do not nub !
+  finalize xs = (show $ map unNodeID xs) -- NOTE do not sort, do not nub !
 
 -- | Detailed output of the different states, that were visited.
 
-{-
 extendedOutput :: Opt String
 extendedOutput = (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,branch,opt,finalize) where
   end      cm sid               = printf "E      %5d %5d"                             (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) 
-  lbegin   cm sid t           s = printf "lbegin %5d %5d   %7.3f \n%s"                (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t                       s
-  start    cm sid t           s = printf "S      %5d %5d   %7.3f \n%s"                (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t                       s
-  delete   cm sid t           s = printf "D      %5d %5d   %7.3f \n%s"                (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t                       s
-  matchP   cm sid t (k1,k2,e) s = printf "MP     %5d %5d   %7.3f   %7.3f %1s %1s\n%s" (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t e (show k1) (show k2) s
-  matchL   cm sid t (k,e)     s = printf "ML     %5d %5d   %7.3f   %7.3f %1s\n%s"     (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t e (show k)            s
-  insertL  cm sid t (k,e)     s = printf "IL     %5d %5d   %7.3f   %7.3f %1s\n%s"     (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t e (show k)            s
-  matchR   cm sid t (k,e)     s = printf "MR     %5d %5d   %7.3f   %7.3f   %1s\n%s"   (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t e (show k)            s
-  insertR  cm sid t (k,e)     s = printf "IR     %5d %5d   %7.3f   %7.3f   %1s\n%s"   (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) t e (show k)            s
+  lbegin   cm sid t           s = printf "lbegin %5d %5d   %7.3f \n%s"                (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t)                       s
+  start    cm sid t           s = printf "S      %5d %5d   %7.3f \n%s"                (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t)                       s
+  delete   cm sid t           s = printf "D      %5d %5d   %7.3f \n%s"                (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t)                       s
+  matchP   cm sid t (k1,k2,e) s = printf "MP     %5d %5d   %7.3f   %7.3f %1s %1s\n%s" (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t) (unBitScore e) (show k1) (show k2) s
+  matchL   cm sid t (k,e)     s = printf "ML     %5d %5d   %7.3f   %7.3f %1s\n%s"     (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t) (unBitScore e) (show k)            s
+  insertL  cm sid t (k,e)     s = printf "IL     %5d %5d   %7.3f   %7.3f %1s\n%s"     (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t) (unBitScore e) (show k)            s
+  matchR   cm sid t (k,e)     s = printf "MR     %5d %5d   %7.3f   %7.3f   %1s\n%s"   (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t) (unBitScore e) (show k)            s
+  insertR  cm sid t (k,e)     s = printf "IR     %5d %5d   %7.3f   %7.3f   %1s\n%s"   (unStateID sid) (unNodeID $ ((cm^.states) M.! sid)^.nodeID) (unBitScore t) (unBitScore e) (show k)            s
   branch   cm sid   s t = printf "B      %5d %5d\n%s\n%s" (unStateID sid) (unNodeID $ ((cm^.states) M.! sid) ^. nodeID) s t
   opt                   = id
   finalize            s = "\nLabel State  Node     Trans     Emis\n\n" ++ s
--}
 
 -- | Algebra product operation.
 
@@ -202,19 +201,16 @@ algA <*> algB = (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
 
 -- | Recursion in two CMs simultanously.
 
-deriving instance NFData BitScore
-
-recurse :: (NFData a, Show a) => Bool -> Opt a -> CM -> CM -> Array (StateID,StateID) [(a,a)]
+recurse :: (Show a) => Bool -> Opt a -> CM -> CM -> Array (StateID,StateID) [(a,a)]
 recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,branch,opt,finalize) m1 m2 = locarr where
 
   loc k1 k2
---    | cmType m1 == CMProb || cmType m2 == CMProb = error "both models need to be score type models"
     | otherwise = opt $ do
         r <- arr ! (k1, k2)
         return $ (lbegin m1 k1 lb1 *** lbegin m2 k2 lb2) r
     where
-      lb1 = undefined -- localBegin m1 ! k1
-      lb2 = undefined -- localBegin m2 ! k2
+      lb1 = M.findWithDefault (BitScore (-10000)) k1 (m1^.localBegin)
+      lb2 = M.findWithDefault (BitScore (-10000)) k2 (m2^.localBegin)
 
   rec k1 k2 = let xyz = rec' k1 k2
               in  xyz -- traceShow ("rec",k1,((m1^.states) M.! k1) ^. stateType,k2,((m2^.states) M.! k2) ^. stateType) xyz
@@ -223,39 +219,29 @@ recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
     | t1 == E && t2 == E = [(end m1 k1, end m2 k2)]
     --
     | t1 == S && t2 == S = opt $ do
-        -- Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
-        -- Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-        (c1,tr1) <- s1 ^. transitions
-        (c2,tr2) <- s2 ^. transitions
+        (c1,tr1) <- s1 ^. transitions ++ [(ls1,le1)]
+        (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
         r <- arr ! (c1, c2)
         return $ (start m1 k1 tr1 *** start m2 k2 tr2) r
     | t1 == D && t2 == D = opt $ do
-        -- Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
-        -- Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-        (c1,tr1) <- s1 ^. transitions
-        (c2,tr2) <- s2 ^. transitions
+        (c1,tr1) <- s1 ^. transitions ++ [(ls1,le1)]
+        (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
         r <- arr ! (c1, c2)
         return $ (delete m1 k1 tr1 *** delete m2 k2 tr2) r
     -- match pair emitting states
     | t1 == MP && t2 == MP
     =   opt $ do
-        --Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
-        --Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-        --(e1,e2) <- zip (semission s1) (semission s2)
-        (c1,tr1) <- s1 ^. transitions
-        (c2,tr2) <- s2 ^. transitions
+        (c1,tr1) <- s1 ^. transitions ++ [(ls1,le1)]
+        (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
         (e1,e2) <- zip (s1 ^. emits ^. pair) (s2 ^. emits ^. pair)
         r <- arr ! (c1, c2)
         return $ (matchP m1 k1 tr1 e1 *** matchP m2 k2 tr2 e2) r
     -- match left emitting states
     | t1 `elem` lstates && t2 `elem` lstates
     =   opt $ do
---        Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
---        Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-        (c1,tr1) <- s1 ^. transitions
-        (c2,tr2) <- s2 ^. transitions
+        (c1,tr1) <- s1 ^. transitions ++ [(ls1,le1)]
+        (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
         guard $ (not fastIns && (c1 /= k1 || c2 /= k2)) || (fastIns && c1/=k1 && c2/=k2)
---        (e1,e2) <- zip (semission s1) (semission s2)
         (e1,e2) <- zip (s1 ^. emits ^. single) (s2 ^. emits ^. single)
         r <- arr ! (c1, c2)
         let f = if t1 == ML then matchL else insertL
@@ -264,13 +250,9 @@ recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
     -- match right emitting states
     | t1 `elem` rstates && t2 `elem` rstates
     =   opt $ do
---        Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
---        Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-        (c1,tr1) <- s1 ^. transitions
-        (c2,tr2) <- s2 ^. transitions
-        --guard $ c1 /= k1 || c2 /= k2
+        (c1,tr1) <- s1 ^. transitions ++ [(ls1,le1)]
+        (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
         guard $ (not fastIns && (c1 /= k1 || c2 /= k2)) || (fastIns && c1/=k1 && c2/=k2)
---        (e1,e2) <- zip (semission s1) (semission s2)
         (e1,e2) <- zip (s1 ^. emits ^. single) (s2 ^. emits ^. single)
         r <- arr ! (c1, c2)
         let f = if t1 == MR then matchR else insertR
@@ -279,21 +261,17 @@ recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
     -- if one state is E, we can only delete states, except for another S state, which will go into local end
     -- it is not possible to use an emitting state on the right as those would require emitting on the left, too!
     | t1 == E && t2 `elem` [D,S] = opt $ do
---      Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-      (c2,tr2) <- s2 ^. transitions
+      (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
       r <- arr ! (k1,c2)
       return $ if t2 == D then second (delete m2 k2 tr2) r else second (start m2 k2 tr2) r
     -- the other way around with D,E
     | t1 `elem` [D,S] && t2 == E = opt $ do
-      -- Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
-      (c1,tr1) <- s1 ^. transitions
+      (c1,tr1) <- s1 ^. transitions ++ [(ls1,le2)]
       r <- arr ! (c1,k2)
       return $ if t1 == D then first (delete m1 k1 tr1) r else first (start m1 k1 tr1) r
     -- two branching states
     | t1 == B && t2 == B = opt $
       let 
---        [Branch l1, Branch r1] = schildren s1
---        [Branch l2, Branch r2] = schildren s2
         [(l1,_),(r1,_)] = s1 ^. transitions
         [(l2,_),(r2,_)] = s2 ^. transitions
       in
@@ -318,7 +296,6 @@ recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
     -- branch - non-branch
     | t1 == B && t2 /= B = opt $
       let
-        -- [Branch l, Branch r] = schildren s1
         [(l,_), (r,_)] = s1 ^. transitions
       in
         do
@@ -337,7 +314,6 @@ recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
     -- branch - non-branch
     | t1 /= B && t2 == B = opt $
       let
---        [Branch l, Branch r] = schildren s2
         [(l,_), (r,_)] = s2 ^. transitions
       in
         do
@@ -353,41 +329,32 @@ recurse fastIns (end,lbegin,start,delete,matchP,matchL,insertL,matchR,insertR,br
           return (branch m1 k1 s1 t1, branch m2 k2 s2 t2)
     -- S state versus any
     | t1 == S = opt $ do
-        -- Transition c1 tr1 <- schildren s1 ++ [Transition ls1 le1 | acceptLE le1]
-        (c1,tr1) <- s1 ^. transitions
+        (c1,tr1) <- s1 ^. transitions ++ [(ls1,le1)]
         r <- arr ! (c1, k2)
         return $ first (start m1 k1 tr1) r
     -- S state versus any
     | t2 == S = opt $ do
-        -- Transition c2 tr2 <- schildren s2 ++ [Transition ls2 le2 | acceptLE le2]
-        (c2,tr2) <- s2 ^. transitions -- ++ local end stuff -- (child 2, transition score 2)
+        (c2,tr2) <- s2 ^. transitions ++ [(ls2,le2)]
         r <- arr ! (k1, c2)
         return $ second (start m2 k2 tr2) r
     --
     | otherwise = []
     where
-      s1  = (m1 ^. states) M.! k1 -- states m1 ! k1
-      s2  = (m2 ^. states) M.! k2 -- states m2 ! k2
-      t1  = s1 ^. stateType -- stype s1
-      t2  = s2 ^. stateType -- stype s2
-      le1 = BitScore (-1000) -- TODO!!! error "local end" -- localEnd m1 ! k1
-      le2 = BitScore (-1000) -- TODO!!! error "local end" -- localEnd m2 ! k2
-      ls1 = sn1 -- snd . bounds $ states m1 -- last state (E)
-      ls2 = sn2 -- snd . bounds $ states m2
+      s1  = (m1 ^. states) M.! k1
+      s2  = (m2 ^. states) M.! k2
+      t1  = s1 ^. stateType
+      t2  = s2 ^. stateType
+      le1 = M.findWithDefault (BitScore (-10000)) k1 (m1^.localEnd)
+      le2 = M.findWithDefault (BitScore (-10000)) k2 (m2^.localEnd)
+      ls1 = sn1
+      ls2 = sn2
       lstates = [ML,IL]
       rstates = [MR,IR]
-      acceptLE x
--- TODO        | cmType m1 == CMScore && x > (-1/0) = True
--- TODO        | cmType m1 == CMProb  && x /= 0     = True
-        | otherwise                          = False
 
-  locarr  = arr -- (array ((0,0),(sn1,sn2)) [((k1,k2),loc k1 k2) | k1 <- [0 .. sn1], k2 <- [0 .. sn2]]) `asTypeOf` arr
-  arr     = let a = (array ((0,0),(sn1,sn2)) [((k1,k2),rec k1 k2) | k1 <- [0 .. sn1], k2 <- [0 .. sn2]])
-                as = [True] -- [a!(k1,k2) | k1<-[sn1, sn1-1 .. 0], k2 <- [sn2, sn2-1 .. 0]]
-            -- in a `using` evalTraversable rdeepseq
-            in (as `using` evalBuffer 1 rdeepseq) `pseq` a
-  sn1 = fst . M.findMax $ m1 ^. states -- states m1
-  sn2 = fst . M.findMax $ m2 ^. states -- states m2
+  locarr  = (array ((0,0),(sn1,sn2)) [((k1,k2),loc k1 k2) | k1 <- [0 .. sn1], k2 <- [0 .. sn2]])
+  arr     = (array ((0,0),(sn1,sn2)) [((k1,k2),rec k1 k2) | k1 <- [0 .. sn1], k2 <- [0 .. sn2]]) `asTypeOf` locarr
+  sn1 = fst . M.findMax $ m1 ^. states
+  sn2 = fst . M.findMax $ m2 ^. states
 
 
 -- * Handling user I/O.
@@ -452,31 +419,18 @@ main = do
   let [a,b] = models
   [theA] <- fromFile a
   [theB] <- fromFile b
-  let m1 = theA -- TODO !!! applyIf (not nobeginilir) fixTransition $ applyIf (not global) (cmMakeLocal pbegin pend) m1'
-  let m2 = theB -- TODO !!! applyIf (not nobeginilir) fixTransition $ applyIf (not global) (cmMakeLocal pbegin pend) m2'
+  let m1 = if nobeginilir then theA else makeLocal pbegin pend theA -- TODO !!! applyIf (not nobeginilir) fixTransition $ applyIf (not global) (cmMakeLocal pbegin pend) m1'
+  let m2 = if nobeginilir then theA else makeLocal pbegin pend theB -- TODO !!! applyIf (not nobeginilir) fixTransition $ applyIf (not global) (cmMakeLocal pbegin pend) m2'
   let pr = (\(x,y) -> putStrLn x >> putStrLn "" >> putStrLn y >> putStrLn "++++++++++++")
   when (quiet && not normal) $ do
     let (a1,a2) = head $ results fastIns cykMaxiMin m1 m2
     printf "%s   %s %10.3f %10.3f\n" a b (unBitScore a1) (unBitScore a2)
-{-
   when (normal && not loud) $ do
     let ((((cyk1,vn1),rna1),db1),(((cyk2,vn2),_),db2)) = head $ results fastIns (cykMaxiMin <*> visitedNodes <*> rnaString endmarker <*> dotBracket endmarker) m1 m2
     let rnaBoth = concatMap f rna1 where
           f x
-            | x==nN = "_"
+            | x=='N' = "_"
             | otherwise   = show x
-    printf "%s   %s %10.3f %10.3f %s %s %s %s %s\n" a b cyk1 cyk2 rnaBoth db1 db2 (show vn1) (show vn2)
+    printf "%s   %s %10.3f %10.3f %s %s %s %s %s\n" a b (unBitScore cyk1) (unBitScore cyk2) rnaBoth db1 db2 (show $ map unNodeID vn1) (show $ map unNodeID vn2)
   when loud . mapM_ pr $ answers fastIns (cykMaxiMin <*> visitedNodes <*> rnaString endmarker <*> dotBracket endmarker <*> extendedOutput) m1 m2
--}
-
--- * Helper functions
-
--- | summation in logspace
-
--- TODO time for a new library ;)
-
-logSum x y = h + log (1 + exp (l-h)) where
-  h = max x y
-  l = min x y
-{-# INLINE logSum #-}
 
