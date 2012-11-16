@@ -427,10 +427,10 @@ main = do
     printf "%s   %s %10.3f %10.3f\n" a b (unBitScore a1) (unBitScore a2)
   when (normal && not loud) $ do
     let ((((cyk1,vn1),rna1),db1),(((cyk2,vn2),_),db2)) = head $ results fastIns (cykMaxiMin <*> visitedNodes <*> rnaString endmarker <*> dotBracket endmarker) m1 m2
-    let rnaBoth = concatMap f rna1 where
+    let rnaBoth = map f rna1 where
           f x
-            | x=='N' = "_"
-            | otherwise   = show x
+            | x=='N' = '_'
+            | otherwise   = x
     printf "%s   %s %10.3f %10.3f %s %s %s %s %s\n" a b (unBitScore cyk1) (unBitScore cyk2) rnaBoth db1 db2 (show $ map unNodeID vn1) (show $ map unNodeID vn2)
   when loud . mapM_ pr $ answers fastIns (cykMaxiMin <*> visitedNodes <*> rnaString endmarker <*> dotBracket endmarker <*> extendedOutput) m1 m2
 

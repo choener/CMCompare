@@ -42,4 +42,4 @@ executable CMCompare
     CMCompare.hs
 
   ghc-options:
-    -O2 -threaded -rtsopts -funbox-strict-fields -fllvm -optlo-O3 -optlo-inline -optlo-std-compile-opts
+    -O2 -rtsopts -fllvm -optlo-O3 -optlo-inline -optlo-std-compile-opts
