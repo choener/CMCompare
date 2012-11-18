@@ -1,5 +1,5 @@
 name:           CMCompare
-version:        0.0.1.3
+version:        0.0.1.4
 author:         Christian Hoener zu Siederdissen, Ivo L. Hofacker
 maintainer:     choener@tbi.univie.ac.at
 copyright:      Christian Hoener zu Siederdissen, Ivo L. Hofacker, 2010
@@ -26,17 +26,29 @@ extra-source-files:
   scripts/HighScoreEdges.sh
   scripts/NeighborGraph.sh
 
-executable CMCompare
+library
+
   build-depends:
     base >= 4 && < 5    ,
     array   == 0.4.*    ,
     containers == 0.5.* ,
-    cmdargs >= 0.10     ,
     lens    == 3.*      ,
-    parallel == 3.2.*   ,
 
     BiobaseXNA      == 0.6.3.*  ,
     BiobaseInfernal == 0.7.*
+
+  exposed-modules:
+    BioInf.CMCompare
+
+  ghc-options:
+    -O2 -rtsopts -fllvm -optlo-O3 -optlo-inline -optlo-std-compile-opts
+
+
+
+executable CMCompare
+
+  build-depends:
+    cmdargs >= 0.10
 
   main-is:
     CMCompare.hs
