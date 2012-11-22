@@ -29,13 +29,13 @@ extra-source-files:
 library
 
   build-depends:
-    base >= 4 && < 5    ,
-    array   == 0.4.*    ,
-    containers == 0.5.* ,
-    lens    == 3.*      ,
+    base        >= 4 && < 5 ,
+    array       >= 0.4      ,
+    containers  >= 0.4      ,
+    lens        == 3.*      ,
 
-    BiobaseXNA      == 0.6.3.*  ,
-    BiobaseInfernal == 0.7.*
+    BiobaseXNA      >= 0.6.3.1 ,
+    BiobaseInfernal >= 0.7.0.1
 
   exposed-modules:
     BioInf.CMCompare
