@@ -1,8 +1,8 @@
 name:           CMCompare
-version:        0.0.1.5
-author:         Christian Hoener zu Siederdissen, Ivo L. Hofacker
+version:        0.0.1.6
+author:         Christian Hoener zu Siederdissen
 maintainer:     choener@tbi.univie.ac.at
-copyright:      Christian Hoener zu Siederdissen, Ivo L. Hofacker, 2010
+copyright:      Christian Hoener zu Siederdissen, 2010--2015
 homepage:       http://www.tbi.univie.ac.at/software/cmcompare/
 category:       Bioinformatics
 synopsis:       Infernal covariance model comparison
@@ -28,14 +28,12 @@ extra-source-files:
 
 library
 
-  build-depends:
-    base        >= 4 && < 5 ,
-    array       >= 0.4      ,
-    containers  >= 0.4      ,
-    lens        == 3.*      ,
-
-    BiobaseXNA      >= 0.6.3.1 ,
-    BiobaseInfernal >= 0.7.0.1
+  build-depends: base             == 4.*
+               , array            >= 0.4
+               , containers       >= 0.4
+               , lens             == 4.*
+               , BiobaseXNA       == 0.9.1.*
+               , BiobaseInfernal  == 0.8.0.*
 
   exposed-modules:
     BioInf.CMCompare
@@ -55,3 +53,4 @@ executable CMCompare
 
   ghc-options:
     -O2 -rtsopts -fllvm -optlo-O3 -optlo-inline -optlo-std-compile-opts
+
